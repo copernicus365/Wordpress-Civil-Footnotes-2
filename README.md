@@ -1,4 +1,4 @@
-# Wordpress-Civil-Footnotes-2
+# Civil Footnotes 2
 WordPress plugin for making footnotes, a simple improvement upon <a href="https://wordpress.org/plugins/civil-footnotes/">Civil Footnotes</a>'s plugin.
 
 Parses and displays footnotes, based on <a href="https://wordpress.org/plugins/civil-footnotes/">Civil Footnotes</a>, which itself was based on <a href="https://elvery.net/drzax/wordpress-footnotes-plugin">WP-Foonotes</a> by <a href="http://elvery.net">Simon Elvery</a>, and the footnote syntax pioneered by <a href="http://daringfireball.net/2005/07/footnotes">John Gruber</a>. The improvement here is that the title information is placed in a data-title attribute, not in the anchor's title attribute. This allows a custom CSS to style the popup, instead of the ugly default browser way. Without this, adding custom CSS worked, but the default popup still showed at the same time. See <a href="https://stackoverflow.com/a/35141804/">here</a> and <a href="https://stackoverflow.com/a/2011199/">here</a>.
